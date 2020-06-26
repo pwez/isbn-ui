@@ -1,0 +1,19 @@
+<h3>Enter 10 or 13 Digit ISBNs (Comma Separated)</h3>
+<textarea id="isbns" #isbnList></textarea>
+<br>
+<input type="button" (click)="validate(isbnList.value)" value="Validate" />
+
+<ng-template #modal let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">ISBN Results</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss()">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close()">Ok</button>
+  </div>
+</ng-template>
