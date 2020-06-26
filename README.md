@@ -12,6 +12,6 @@ Go to directory: ```cd isbn-ui```
 
 Install dependencies: ```npm install```
 
-Run application: ```npm install```
+Run application: ```ng serve```
 
 Access UI: ```http://localhost:4200```
